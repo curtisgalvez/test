@@ -1,0 +1,12 @@
+Note: This keymap must be applied onto the most recent Jarvis nightly build, if you want to try it.
+This does the same as the jarvis_low_button_keymap.xml map, but adds:
+Fullscreen video/music:
+[UP] - Volume up
+[DOWN] - Volume down
+No longpress UP/DOWN actions to allow for key repeat
+Live TV/radio:
+[UP] - Volume up
+[DOWN] - Volume down
+No longpress UP/DOWN actions to allow for key repeat
+[LEFT] - Channel down
+[RIGHT] - Channel up
