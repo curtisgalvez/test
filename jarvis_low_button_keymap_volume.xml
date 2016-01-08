@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <Global>
+    <keyboard>
+      <escape>Back</escape>
+    </keyboard>
+  </Global>
+  <Home>
+    <keyboard>
+      <backspace>ActivateWindow(Favourites)</backspace>
+      <backspace mod="longpress">ActivateWindow(ShutdownMenu)</backspace>
+      <browser_back>ActivateWindow(Favourites)</browser_back>
+      <browser_back mod="longpress">ActivateWindow(ShutdownMenu)</browser_back>
+    </keyboard>
+  </Home>
+  <VirtualKeyboard>
+    <keyboard>
+      <return mod="longpress">Enter</return>
+      <enter mod="longpress">Enter</enter>
+      <left mod="longpress">Backspace</left>
+      <right mod="longpress">Number0</right> <!-- Spacebar -->
+      <up mod="longpress">Shift</up>
+      <down mod="longpress">Symbols</down>
+      <backspace>PreviousMenu</backspace>
+      <browser_back>PreviousMenu</browser_back>
+    </keyboard>
+  </VirtualKeyboard>
+  <FullscreenVideo>
+    <keyboard>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <escape>Stop</escape>
+      <backspace mod="longpress">FullScreen</backspace>
+      <browser_back mod="longpress">FullScreen</browser_back>
+      <escape mod="longpress">FullScreen</escape>
+      <return>PlayPause</return>           <!-- Remove if you have a playpause button -->
+      <enter>PlayPause</enter>             <!-- Remove if you have a playpause button -->
+      <return mod="longpress">OSD</return> <!-- Remove if you have a playpause button -->
+      <enter mod="longpress">OSD</enter>   <!-- Remove if you have a playpause button -->
+      <up>VolumeUp</up>
+      <down>VolumeDown</down>
+      <left mod="longpress">Rewind</left>
+      <right mod="longpress">FastForward</right>
+    </keyboard>
+  </FullscreenVideo>
+  <VideoOSD>
+    <keyboard>
+      <up mod="longpress">CodecInfo</up>
+      <return mod="longpress">Back</return>
+      <enter mod="longpress">Back</enter>
+    </keyboard>
+  </VideoOSD>
+  <VideoMenu>
+    <keyboard>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <escape>Stop</escape>
+      <return mod="longpress">OSD</return>
+      <enter mod="longpress">OSD</enter>
+    </keyboard>
+  </VideoMenu>
+  <FullscreenLiveTV>
+    <keyboard>
+      <return>OSD</return>
+      <enter>OSD</enter>
+      <left>ChannelDown</left>
+      <right>ChannelUp</right>
+    </keyboard>
+  </FullscreenLiveTV>
+  <FullscreenRadio>
+    <keyboard>
+      <return>OSD</return>
+      <enter>OSD</enter>
+      <left>ChannelDown</left>
+      <right>ChannelUp</right>
+    </keyboard>
+  </FullscreenRadio>
+  <Visualisation>
+    <keyboard>
+      <return>PlayPause</return>           <!-- Remove if you have a playpause button -->
+      <enter>PlayPause</enter>             <!-- Remove if you have a playpause button -->
+      <return mod="longpress">OSD</return> <!-- Remove if you have a playpause button -->
+      <enter mod="longpress">OSD</enter>   <!-- Remove if you have a playpause button -->
+      <backspace>Fullscreen</backspace>
+      <backspace mod="longpress">Stop</backspace>
+      <browser_back>Fullscreen</browser_back>
+      <browser_back mod="longpress">Stop</browser_back>
+      <escape mod="longpress">Stop</escape>
+      <up>VolumeUp</up>
+      <right mod="longpress">SkipNext</right>
+      <down>VolumeDown</down>
+      <left mod="longpress">SkipPrevious</left>
+    </keyboard>
+  </Visualisation>
+  <SlideShow>
+    <keyboard>
+      <up>ZoomIn</up>
+      <down>ZoomOut</down>
+      <left>PreviousPicture</left>
+      <right>NextPicture</right>
+      <up mod="longpress">Up</up> <!-- Longpress on direction keys for panning when zoomed in -->
+      <down mod="longpress">Down</down>
+      <left mod="longpress">Left</left>
+      <right mod="longpress">Right</right>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <return mod="longpress">Info</return>
+      <enter mod="longpress">Info</enter>
+    </keyboard>
+  </SlideShow>
+  <FileManager>
+    <keyboard>
+      <right mod="longpress">Highlight</right>
+      <left mod="longpress">Highlight</left>
+    </keyboard>
+  </FileManager>
+</keymap>
