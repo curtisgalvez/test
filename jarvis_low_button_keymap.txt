@@ -1,0 +1,38 @@
+Note: This keymap must be applied onto the most recent Jarvis nightly build, if you want to try it.
+
+This keymap adds:
+If you don't have a dedicated playpause button, it flips the behavior for Jarvis so that:
+[SELECT] - Play/pause
+[longpress-SELECT] - OSD (on screen display)
+Other Fullscreen video:
+[BACK] - Stops the video
+[longpress-BACK] - Toggles fullscreen (the default "BACK" behavior)
+[longpress-LEFT] - Rewind
+[longpress-RIGHT] - Fast forward
+[longpress-UP] - SkipNext - Skips to next item in a playlist (or folder if "Play next automatically" is enabled)
+[longpress-DOWN] - SkipPrevious - Skips to the previous item in a playlist (or folder if "Play next automatically" is enabled)
+[longpress-UP] (If the OSD controls are visible) - codecinfo (wiki) overlay
+Fullscreen music/visualisation:
+[SELECT] - Play/pause
+[longpress-SELECT] - OSD (on screen display)
+longpress-BACK] - Stop
+Slideshow:
+[UP] - Zoom in
+[DOWN] - Zoom out
+[LEFT] - Previous picture
+[RIGHT] - Next picture
+[BACK] - Stop
+[longpress-UP/DOWN/LEFT/RIGHT] - Pan when zoomed in
+Virtual/on-screen keyboard:
+[longpress-UP] - Shift
+[longpress-DOWN] - Symbols
+[longpress-LEFT] - Backspace
+[longpress-RIGHT] - Spacebar
+[longpress-SELECT] - Enter/Done
+[BACK] - Exit/Cancel
+[longpress-BACK] - Delete
+Home screen:
+[BACK] - Favorites menu
+[longpress-BACK] - Shutdown menu
+File manager (wiki):
+[longpress-LEFT] or [longpress-RIGHT] will highlight an item, which is useful for when you want to select multiple items to copy/delete/etc.
