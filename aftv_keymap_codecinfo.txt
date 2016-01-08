@@ -1,0 +1,1 @@
+Keymap 2's function of showing codecinfo during video playback has been merged with the other keymaps.
