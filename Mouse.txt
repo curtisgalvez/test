@@ -1,0 +1,1 @@
+No mouse on fullscreen video. Click to show mouse.

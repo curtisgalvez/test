@@ -1,0 +1,3 @@
+Tweaks for Nexus Player remote.
+
+Up/Down on fullscreen video control volume. 
