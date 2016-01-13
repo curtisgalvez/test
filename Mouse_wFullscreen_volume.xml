@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <FullScreenVideo>
+    <mouse>
+      <mousedrag>noop</mousedrag>
+      <mousemove>noop</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </FullScreenVideo>
+  <VideoMenu>
+    <mouse>
+      <mousedrag>mousedrag</mousedrag>
+      <mousemove>mousemove</mousemove>
+      <wheeldown>VolumeDown</wheeldown>
+      <wheelup>VolumeUp</wheelup>
+    </mouse>
+  </VideoMenu>
+  <VideoOSD>
+    <mouse>
+      <mousedrag>mousedrag</mousedrag>
+      <mousemove>mousemove</mousemove>
+    </mouse>
+  </VideoOSD>
+</keymap>

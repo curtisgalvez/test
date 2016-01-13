@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <Global>
+    <keyboard>
+      <escape>Back</escape>
+    </keyboard>
+  </Global>
+  <Home>
+    <keyboard>
+      <backspace>ActivateWindow(Favourites)</backspace>
+      <backspace mod="longpress">ActivateWindow(ShutdownMenu)</backspace>
+      <browser_back>ActivateWindow(Favourites)</browser_back>
+      <browser_back mod="longpress">ActivateWindow(ShutdownMenu)</browser_back>
+      <escape>ActivateWindow(Favourites)</escape>
+      <escape mod="longpress">ActivateWindow(ShutdownMenu)</escape>
+    </keyboard>
+  </Home>
+  <VirtualKeyboard>
+    <keyboard>
+      <return mod="longpress">Enter</return>
+      <enter mod="longpress">Enter</enter>
+      <left mod="longpress">Backspace</left>
+      <right mod="longpress">Number0</right> <!-- Spacebar -->
+      <up mod="longpress">Shift</up>
+      <down mod="longpress">Symbols</down>
+      <backspace>PreviousMenu</backspace>
+      <browser_back>PreviousMenu</browser_back>
+    </keyboard>
+  </VirtualKeyboard>
+  <FullscreenVideo>
+    <keyboard>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <escape>Stop</escape>
+      <backspace mod="longpress">FullScreen</backspace>
+      <browser_back mod="longpress">FullScreen</browser_back>
+      <escape mod="longpress">FullScreen</escape>
+      <up mod="longpress">SkipNext</up>
+      <down mod="longpress">SkipPrevious</down>
+      <left mod="longpress">Rewind</left>
+      <right mod="longpress">FastForward</right>
+    </keyboard>
+  </FullscreenVideo>
+  <VideoOSD>
+    <keyboard>
+      <up mod="longpress">CodecInfo</up>
+      <return mod="longpress">Back</return>
+      <enter mod="longpress">Back</enter>
+    </keyboard>
+  </VideoOSD>
+  <VideoMenu>
+    <keyboard>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <escape>Stop</escape>
+      <return mod="longpress">OSD</return>
+      <enter mod="longpress">OSD</enter>
+    </keyboard>
+  </VideoMenu>
+  <FullscreenLiveTV>
+    <keyboard>
+      <return>OSD</return>
+      <enter>OSD</enter>
+    </keyboard>
+  </FullscreenLiveTV>
+  <FullscreenRadio>
+    <keyboard>
+      <return>OSD</return>
+      <enter>OSD</enter>
+    </keyboard>
+  </FullscreenRadio>
+  <Visualisation>
+    <keyboard>
+      <backspace mod="longpress">Stop</backspace>
+      <browser_back mod="longpress">Stop</browser_back>
+      <escape mod="longpress">Stop</escape>
+    </keyboard>
+  </Visualisation>
+  <SlideShow>
+    <keyboard>
+      <up>ZoomIn</up>
+      <down>ZoomOut</down>
+      <left>PreviousPicture</left>
+      <right>NextPicture</right>
+      <up mod="longpress">Up</up> <!-- Longpress on direction keys for panning when zoomed in -->
+      <down mod="longpress">Down</down>
+      <left mod="longpress">Left</left>
+      <right mod="longpress">Right</right>
+      <backspace>Stop</backspace>
+      <browser_back>Stop</browser_back>
+      <return mod="longpress">Info</return>
+      <enter mod="longpress">Info</enter>
+    </keyboard>
+  </SlideShow>
+  <FileManager>
+    <keyboard>
+      <right mod="longpress">Highlight</right>
+      <left mod="longpress">Highlight</left>
+    </keyboard>
+  </FileManager>
+</keymap>
