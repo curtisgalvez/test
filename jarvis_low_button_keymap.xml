@@ -3,6 +3,8 @@
   <Global>
     <keyboard>
       <escape>Back</escape>
+      <play mod="longpress">sendclick(14)</play>
+      <playpause mod="longpress">sendclick(14)</playpause>
     </keyboard>
   </Global>
   <Home>
