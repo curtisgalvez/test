@@ -4,7 +4,7 @@
     <keyboard>
       <escape>Back</escape>
       <play mod="longpress">sendclick(14)</play>
-      <playpause mod="longpress">sendclick(14)</playpause>
+      <play_pause mod="longpress">sendclick(14)</play_pause>
     </keyboard>
   </Global>
   <Home>
