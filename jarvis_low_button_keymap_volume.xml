@@ -3,8 +3,8 @@
   <Global>
     <keyboard>
       <escape>Back</escape>
-      <play mod="longpress">sendclick(14)</play>  <!-- Toggles "hide watched" -->
-      <play_pause mod="longpress">sendclick(14)</play_pause>  <!-- Toggles "hide watched" -->
+      <play mod="longpress">Info</play>
+      <play_pause mod="longpress">Info</play_pause>
     </keyboard>
   </Global>
   <Home>
@@ -17,10 +17,6 @@
   </Home>
   <VirtualKeyboard>
     <keyboard>
-      <return mod="longpress">Enter</return>
-      <enter mod="longpress">Enter</enter>
-      <left mod="longpress">Backspace</left>
-      <right mod="longpress">Number0</right> <!-- Spacebar -->
       <up mod="longpress">Shift</up>
       <down mod="longpress">Symbols</down>
       <backspace>PreviousMenu</backspace>
@@ -35,10 +31,6 @@
       <backspace mod="longpress">FullScreen</backspace>
       <browser_back mod="longpress">FullScreen</browser_back>
       <escape mod="longpress">FullScreen</escape>
-      <return>PlayPause</return>           <!-- Remove if you have a playpause button -->
-      <enter>PlayPause</enter>             <!-- Remove if you have a playpause button -->
-      <return mod="longpress">OSD</return> <!-- Remove if you have a playpause button -->
-      <enter mod="longpress">OSD</enter>   <!-- Remove if you have a playpause button -->
       <up>VolumeUp</up>
       <down>VolumeDown</down>
       <left mod="longpress">Rewind</left>
@@ -47,7 +39,6 @@
   </FullscreenVideo>
   <VideoOSD>
     <keyboard>
-      <up mod="longpress">CodecInfo</up>
       <return mod="longpress">Back</return>
       <enter mod="longpress">Back</enter>
     </keyboard>
@@ -79,10 +70,6 @@
   </FullscreenRadio>
   <Visualisation>
     <keyboard>
-      <return>PlayPause</return>           <!-- Remove if you have a playpause button -->
-      <enter>PlayPause</enter>             <!-- Remove if you have a playpause button -->
-      <return mod="longpress">OSD</return> <!-- Remove if you have a playpause button -->
-      <enter mod="longpress">OSD</enter>   <!-- Remove if you have a playpause button -->
       <backspace>Fullscreen</backspace>
       <backspace mod="longpress">Stop</backspace>
       <browser_back>Fullscreen</browser_back>
