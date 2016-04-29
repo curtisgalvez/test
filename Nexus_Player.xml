@@ -33,10 +33,6 @@
       <backspace mod="longpress">FullScreen</backspace>
       <browser_back mod="longpress">FullScreen</browser_back>
       <escape mod="longpress">FullScreen</escape>
-      <return>PlayPause</return>           <!-- Remove if you have a playpause button -->
-      <enter>PlayPause</enter>             <!-- Remove if you have a playpause button -->
-      <return mod="longpress">OSD</return> <!-- Remove if you have a playpause button -->
-      <enter mod="longpress">OSD</enter>   <!-- Remove if you have a playpause button -->
       <up mod="longpress">SkipNext</up>
       <down mod="longpress">SkipPrevious</down>
       <left mod="longpress">Rewind</left>
@@ -72,10 +68,6 @@
   </FullscreenRadio>
   <Visualisation>
     <keyboard>
-      <return>PlayPause</return>           <!-- Remove if you have a playpause button -->
-      <enter>PlayPause</enter>             <!-- Remove if you have a playpause button -->
-      <return mod="longpress">OSD</return> <!-- Remove if you have a playpause button -->
-      <enter mod="longpress">OSD</enter>   <!-- Remove if you have a playpause button -->
       <backspace mod="longpress">Stop</backspace>
       <browser_back mod="longpress">Stop</browser_back>
       <escape mod="longpress">Stop</escape>
