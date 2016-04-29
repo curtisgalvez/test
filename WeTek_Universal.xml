@@ -12,6 +12,7 @@
       <escape>Back</escape>
       <escape mod="longpress">ActivateWindow(Home)</escape>
       <zero>Number0</zero>
+      <one>Number1</one>
       <two>JumpSMS2</two>
       <three>JumpSMS3</three>
       <four>JumpSMS4</four>
@@ -45,6 +46,7 @@
       <return>PlayPause</return>
       <return mod="longpress">OSD</return>
       <zero>Number0</zero>
+      <one>Number1</one>
       <two>Number2</two>
       <three>Number3</three>
       <four>Number4</four>
@@ -69,6 +71,7 @@
       <return>PlayPause</return>
       <return mod="longpress">OSD</return>
       <zero>Number0</zero>
+      <one>Number1</one>
       <two>Number2</two>
       <three>Number3</three>
       <four>Number4</four>
@@ -87,6 +90,7 @@
       <f1>Backspace</f1>
       <f2>Shift</f2>
       <zero>Number0</zero>
+      <one>Number1</one>
       <two>Number2</two>
       <three>Number3</three>
       <four>Number4</four>
@@ -98,16 +102,14 @@
       <backspace>Backspace</backspace>
       <browser_back>PreviousMenu</browser_back>
       <escape>PreviousMenu</escape>
-      <return mod="longpress">Enter</return>
-      <enter mod="longpress">Enter</enter>
-      <left mod="longpress">Backspace</left>
-      <right mod="longpress">Number0</right> <!-- Spacebar -->
       <up mod="longpress">Shift</up>
+      <down mod="longpress">Symbols</down>
     </keyboard>
   </VirtualKeyboard>
   <VideoMenu>
     <keyboard>
       <zero>Number0</zero>
+      <one>Number1</one>
       <two>Number2</two>
       <three>Number3</three>
       <four>Number4</four>
@@ -123,6 +125,7 @@
   <NumericInput>
     <keyboard>
       <zero>Number0</zero>
+      <one>Number1</one>
       <two>Number2</two>
       <three>Number3</three>
       <four>Number4</four>
@@ -135,20 +138,20 @@
   </NumericInput>
   <Teletext>
     <keyboard>
-      <zero>number0</zero>
-      <two>number2</two>
-      <three>number3</three>
-      <four>number4</four>
-      <five>number5</five>
-      <six>number6</six>
-      <seven>number7</seven>
-      <eight>number8</eight>
-      <nine>number9</nine>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
     </keyboard>
   </Teletext>
   <VideoOSD>
     <keyboard>
-      <up mod="longpress">CodecInfo</up>
       <return mod="longpress">Back</return>
       <enter mod="longpress">Back</enter>
     </keyboard>
@@ -161,69 +164,74 @@
   </ContextMenu>
   <PVROSDChannels>
     <keyboard>
-      <zero>number0</zero>
-      <two>number2</two>
-      <three>number3</three>
-      <four>number4</four>
-      <five>number5</five>
-      <six>number6</six>
-      <seven>number7</seven>
-      <eight>number8</eight>
-      <nine>number9</nine>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
       <f4>Close</f4>
       <f7>Close</f7>
     </keyboard>
   </PVROSDChannels>
   <TVChannels>
     <keyboard>
-      <zero>number0</zero>
-      <two>number2</two>
-      <three>number3</three>
-      <four>number4</four>
-      <five>number5</five>
-      <six>number6</six>
-      <seven>number7</seven>
-      <eight>number8</eight>
-      <nine>number9</nine>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
     </keyboard>
   </TVChannels>
   <PVROSDGuide>
     <keyboard>
-      <zero>number0</zero>
-      <two>number2</two>
-      <three>number3</three>
-      <four>number4</four>
-      <five>number5</five>
-      <six>number6</six>
-      <seven>number7</seven>
-      <eight>number8</eight>
-      <nine>number9</nine>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
     </keyboard>
   </PVROSDGuide>
   <TVGuide>
     <keyboard>
-      <zero>number0</zero>
-      <two>number2</two>
-      <three>number3</three>
-      <four>number4</four>
-      <five>number5</five>
-      <six>number6</six>
-      <seven>number7</seven>
-      <eight>number8</eight>
-      <nine>number9</nine>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
     </keyboard>
   </TVGuide>
   <RadioChannels>
     <keyboard>
-      <zero>number0</zero>
-      <two>number2</two>
-      <three>number3</three>
-      <four>number4</four>
-      <five>number5</five>
-      <six>number6</six>
-      <seven>number7</seven>
-      <eight>number8</eight>
-      <nine>number9</nine>
+      <zero>Number0</zero>
+      <one>Number1</one>
+      <two>Number2</two>
+      <three>Number3</three>
+      <four>Number4</four>
+      <five>Number5</five>
+      <six>Number6</six>
+      <seven>Number7</seven>
+      <eight>Number8</eight>
+      <nine>Number9</nine>
     </keyboard>
   </RadioChannels>
   <FullscreenLiveTV>
